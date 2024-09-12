@@ -1,0 +1,19 @@
+[project]
+name = "hugin-munin-error-labelling"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Marie Roald", email = "marie.roald@nb.no"},
+]
+dependencies = [
+    "jupyter>=1.1.1",
+    "pandas>=2.2.2",
+    "datasets>=2.21.0",
+    "Pillow>=10.4.0",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm]
+distribution = false
